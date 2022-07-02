@@ -1,0 +1,15 @@
+method: get
+url: https://qyapi.weixin.qq.com/cgi-bin/gettoken
+params:
+  corpid: $corpid #模版替换
+  corpsecret: $corpsecret #模版替换
+
+
+docker.testing-studio.com:
+  dev: "127.0.0.1"
+  test: "1.1.1.1"
+  level: 4
+default:
+  "dev"
+
+  
